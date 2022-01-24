@@ -1,0 +1,532 @@
+.content .detail-container {
+    padding: 0 15px;
+}
+
+.content .block {
+    padding: 15px;
+    background: #121317;
+    border-radius: 6px;
+}
+
+.content .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .colume.detail {
+    padding-right: 15px;
+}
+
+.content .chart {
+    height: 500px;
+}
+
+.content .pair-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content .pair-title .pair-logo {
+    margin-right: 15px;
+    display: flex;
+}
+
+.content .pair-title .pair-logo img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.content .pair-title .pair-name {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.content .pair-title .pair-name .text {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-right: 50px;
+}
+
+.content .pair-title .pair-name .icons a {
+    margin-right: 5px;
+}
+
+.content .feature-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content .feature-buttons img {
+    cursor: pointer;
+}
+
+.content .feature-buttons .right-side {
+    display: flex;
+}
+
+.content .feature-buttons .right-side img {
+    margin-left: 5px;
+}
+
+.content .list-favorites {
+    position: absolute;
+    background: #252e44 80%;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.content .list-favorites .title {
+    text-align: center;
+    background: #2c323d;
+    border-radius: 10px 10px 0 0;
+}
+
+.content .list-favorites .list {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.content .list-favorites .list .item {
+    display: flex;
+    padding: 10px;
+}
+
+.content .list-favorites .list .item .pair-logo {
+    margin-right: 10px;
+    display: flex;
+}
+
+.content .list-favorites .list .item .pair-logo img {
+    height: 20px;
+    border-radius: 50%;
+}
+
+.content .list-favorites .list .item .pair-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .list-favorites .list .item:hover {
+    background-color: #221700;
+}
+
+.content .pair-info {
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #24262d;
+    margin: 15px 0;
+}
+
+.content .pair-info .item {
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.content .pair-info .item .label {
+    font-weight: 600;
+}
+
+.content .pair-info .item .icon-pooled {
+    margin-right: 5px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.content .pair-info .item .content {
+    float: right;
+}
+
+.content .pair-info .item .content.price {
+    color: #facc15;
+    font-size: 22px;
+}
+
+.content .pair-info .item .content.price.up {
+    color: #4ade80;
+}
+
+.content .pair-info .item .content.price.down {
+    color: #ef4444;
+}
+
+.content .pair-info .item .content.pooled {
+    line-height: 30px;
+}
+
+.content .pair-info .item.even {
+    background: #1b1c22;
+}
+
+.content .pair-info .item.bsc-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.content .pair-info .item.bsc-score .title {
+    font-size: 20px;
+}
+
+.content .pair-info .item.bsc-score .score {
+    color: #22c55e;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.content .pair-info .item.item-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .pair-info .item.item-price .label {
+    margin-right: 10px;
+}
+
+.content .pair-info .item.item-price .content.price {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content .community-vote .title {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.content .community-vote .row-vote {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .community-vote .vote-up,
+.content .community-vote .vote-down {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.content .community-vote .vote-up .percent,
+.content .community-vote .vote-down .percent {
+    padding-left: 5px;
+}
+
+.content .community-vote .vote-line {
+    width: 100%;
+    height: 6px;
+    margin: 15px 0;
+    display: flex;
+}
+
+.content .community-vote .vote-line .side.left {
+    border-radius: 100px 0 0 100px;
+    background: #4ade80;
+}
+
+.content .community-vote .vote-line .side.right {
+    border-radius: 0 100px 100px 0;
+    background: #ef4444;
+}
+
+.content .transaction-list {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.content .transaction-list .tx-list {
+    height: calc(100vh);
+    overflow-y: scroll;
+}
+
+.content .transaction-list .tx-list .stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0;
+    overflow: hidden;
+    border-bottom: 1px solid #2c323d;
+    background: #1b1c22;
+    width: 100%;
+}
+
+.content .transaction-list .tx-list .stage .dot-flashing {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #facc15;
+    color: #facc15;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+}
+
+.content .transaction-list .tx-list .stage .dot-flashing::before,
+.content .transaction-list .tx-list .stage .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.content .transaction-list .tx-list .stage .dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #facc15;
+    color: #facc15;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.content .transaction-list .tx-list .stage .dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #facc15;
+    color: #facc15;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: #facc15;
+    }
+    50%,
+    100% {
+        background-color: #ccc;
+    }
+}
+
+.content .transaction-list .tx-list .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.content .transaction-list .tx-list .loading img {
+    width: 50px;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.content .transaction-list .tx-list .item.action.buy {
+    color: #17c671;
+}
+
+.content .transaction-list .tx-list .item.action.sell {
+    color: #c4183c;
+}
+
+.content .transaction-list .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2c323d;
+    margin: 0;
+}
+
+.content .transaction-list .row.odd {
+    background: #1b1c22;
+}
+
+.content .transaction-list .row .item {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .transaction-list .row .item.name {
+    display: flex;
+}
+
+.content .transaction-list .row .item.name .pair-logo {
+    margin: 0 5px;
+    line-height: 18px;
+}
+
+.content .transaction-list .row .item.name .pair-logo img {
+    height: 20px;
+    border-radius: 50%;
+}
+
+.content .transaction-list .row .item.action .content {
+    float: left;
+}
+
+.content .transaction-list .row .item.amount-data .content {
+    float: right;
+    padding-right: 30px;
+}
+
+.content .transaction-list .row.title .item {
+    text-transform: uppercase;
+}
+
+.content .transaction-list .row.more {
+    justify-content: center;
+    min-height: 50px;
+}
+
+.content .transaction-list .row.more a {
+    text-decoration: underline;
+}
+
+
+/* ----- */
+
+#paywall_mask {
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.table__widget {
+    padding: 0 15px;
+}
+
+.table {
+    color: #fff;
+    background: #323852;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thead-light {
+    background: #2F3446;
+}
+
+.thead-light tr th {
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.table a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.table td {
+    border: none;
+    border-bottom: 1px solid #23273D;
+}
+
+#tradingview_16207-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto !important;
+    margin-right: 15px !important;
+}
+
+@media only screen and (max-width: 1366px) {
+    .content .detail-container {
+        padding: 15px;
+    }
+    .content .detail-container .colume.detail {
+        padding-right: 0;
+    }
+    .content .detail-container .pair-title .pair-logo {
+        padding-right: 20px;
+    }
+    .content .detail-container .pair-title .pair-logo img {
+        height: 40px;
+    }
+    .content .detail-container .pair-info,
+    .content .detail-container .bsc-score {
+        margin-bottom: 10px;
+    }
+    .content .detail-container .community-vote,
+    .content .detail-container .chart {
+        margin-bottom: 20px;
+    }
+    .content .transaction-list .row .item {
+        padding: 10px 20px;
+    }
+    .content .transaction-list .row .item.action .content {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .content .detail-container {
+        padding: 15px;
+    }
+    .content .detail-container .colume.detail {
+        padding-right: 0;
+    }
+    .content .detail-container .pair-title .pair-logo {
+        padding-right: 20px;
+    }
+    .content .detail-container .pair-title .pair-logo img {
+        height: 40px;
+    }
+    .content .detail-container .pair-info,
+    .content .detail-container .bsc-score {
+        margin-bottom: 10px;
+    }
+    .content .detail-container .community-vote,
+    .content .detail-container .chart {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .content .detail-container .block {
+        padding: 0;
+    }
+    .content .detail-container .block .pair-title {
+        padding: 0 15px;
+    }
+    .content .detail-container .block .pair-title .pair-name {
+        display: block;
+    }
+    .content .detail-container .block .colume.detail {
+        padding: 0 15px;
+    }
+    .content .detail-container .block.transaction-list {
+        overflow-x: scroll;
+    }
+    .content .detail-container .block.transaction-list .title,
+    .content .detail-container .block.transaction-list .tx-list {
+        width: 1200px;
+    }
+}
